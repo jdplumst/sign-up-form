@@ -23,6 +23,11 @@ html, body {
     height: 100%;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
 .sidebar {
     height: 100%;
     width: 40%;
@@ -49,6 +54,7 @@ img {
 
 .logo-background p {
     font-size: 72px;
+    font-family: norse-bold;
 }
 
 span {
