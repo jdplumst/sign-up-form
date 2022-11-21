@@ -57,6 +57,19 @@ img {
     margin: 0;
 }
 
+span {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    color: white;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
 .main {
     margin-left: 40%;
     padding: 150px 0px;
