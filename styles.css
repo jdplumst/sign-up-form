@@ -123,14 +123,14 @@ input {
 
 input:focus {
     border: 1px solid blue;
-    box-shadow: skyblue;
+    box-shadow: 1px 1px skyblue;
     outline: none;
 }
 
 input:invalid {
     border: 1px solid #D55C5F;
     color: #D55C5F;
-    box-shadow: lightcoral;
+    box-shadow: 1px 1px lightcoral;
     outline: none;
 }
 
