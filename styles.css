@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    background-image: url("background.avif");
+    background-size: cover;
+}
+
+.logo-background {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 20%;
+    width: 100%;
+    top: 25%;
+}
+
+img {
+    position: absolute;
+    height: 150px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-background p {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    margin: 0;
+}
