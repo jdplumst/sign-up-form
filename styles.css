@@ -74,6 +74,8 @@ span {
 .main {
     margin-left: 40%;
     padding: 150px 0px;
+    position: fixed;
+    height: 100%;
 }
 
  h2 {
