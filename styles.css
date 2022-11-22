@@ -25,14 +25,14 @@ html, body {
 
 @font-face {
     font-family: norse-bold;
-    src: url(Norse-Bold.otf);
+    src: url(./fonts/Norse-Bold.otf);
 }
 
 .sidebar {
     height: 100%;
     width: 40%;
     position: fixed;
-    background-image: url("background.avif");
+    background-image: url("./images/background.avif");
     background-size: cover;
 }
 
